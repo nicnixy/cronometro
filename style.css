@@ -1,0 +1,27 @@
+body {
+    background-color: aqua;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    }
+
+header {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timer {
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: 35px;
+}
+
+.timer-counter {
+    background-color: rgb(241, 234, 84);
+    border-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 0px 5px 15px rgb(185, 169, 88);
+}
